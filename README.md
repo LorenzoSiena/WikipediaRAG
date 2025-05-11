@@ -24,3 +24,7 @@ Nota: Questo progetto richiede una chiave API di OpenAI. Crea un file .env nella
     OPENAI_API_KEY='la_tua_chiave_api_di_openai'
 
 Sostituisci 'la_tua_chiave_api_di_openai' con la tua effettiva chiave API di OpenAI.
+
+# Avvio 
+
+    streamlit run main.py
