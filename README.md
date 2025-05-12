@@ -17,7 +17,7 @@ L'applicazione utilizza LlamaIndex per caricare e interrogare contenuti da speci
     cd WikipediaRAG/
     python3 -m venv .venv
     source .venv/bin/activate
-    pip install streamlit python-dotenv llama-index
+    pip install streamlit python-dotenv llama-index llama-index-readers-wikipedia
 
 Nota: Questo progetto richiede una chiave API di OpenAI. Crea un file .env nella directory principale del progetto con il seguente contenuto:
 
