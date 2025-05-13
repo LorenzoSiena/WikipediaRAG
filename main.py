@@ -29,8 +29,8 @@ PAGES = [
     "Generative adversarial network",
     "Bayesian network",
     "Gradient boosting",
-    "Feature engineering"
-    "K-nearest neighbors algorithm",
+    "Feature engineering",
+    "K-nearest neighbors algorithm"
 ]
 
 @st.cache_resource
