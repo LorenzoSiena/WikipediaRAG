@@ -1,17 +1,16 @@
 # A simple Wikipedia RAG Application
 
-Una semplice applicazione web creata con Streamlit che dimostra il funzionamento del RAG (Retrieval Augmented Generation). 
-L'applicazione utilizza LlamaIndex per caricare e interrogare contenuti da specifiche pagine di Wikipedia relative all'Intelligenza Artificiale e al Machine Learning, fornendo risposte basate sul contesto recuperato.
+A simple web application created with Streamlit that demonstrates how RAG (Retrieval Augmented Generation) works. The application uses LlamaIndex to load and query content from specific Wikipedia pages related to Artificial Intelligence and Machine Learning, providing answers based on the retrieved context.
 
 ## Tecnologie utilizzate:
 
-    Streamlit: Per l'interfaccia utente interattiva.
-    LlamaIndex: Framework per la costruzione di applicazioni LLM con dati esterni (in questo caso, Wikipedia).
-    OpenAI: Utilizzato per i modelli di embedding e il modello linguistico (LLM).
-    WikipediaReader: Lettore di dati di LlamaIndex per ottenere contenuti da Wikipedia.
-    python-dotenv: Per la gestione delle variabili d'ambiente.
+    Streamlit: For the interactive user interface.
+    LlamaIndex: Framework for building LLM applications with external data (in this case, Wikipedia).
+    OpenAI: Used for embedding models and the language model (LLM).
+    WikipediaReader: LlamaIndex data reader for retrieving content from Wikipedia.
+    python-dotenv: For managing environment variables.
 
-## Installazione
+## Installation
 
     git clone https://github.com/LorenzoSiena/WikipediaRAG/
     cd WikipediaRAG/
@@ -19,12 +18,12 @@ L'applicazione utilizza LlamaIndex per caricare e interrogare contenuti da speci
     source .venv/bin/activate
     pip install streamlit python-dotenv llama-index llama-index-readers-wikipedia wikipedia
 
-Nota: Questo progetto richiede una chiave API di OpenAI. Crea un file .env nella directory principale del progetto con il seguente contenuto:
+Nota: Note: This project requires an OpenAI API key. Create a .env file in the project's root directory with the following content:
 
-    OPENAI_API_KEY='la_tua_chiave_api_di_openai'
+    OPENAI_API_KEY='your_openai_api_key'
 
-Sostituisci 'la_tua_chiave_api_di_openai' con la tua effettiva chiave API di OpenAI.
+Replace 'your_openai_api_key' with your actual OpenAI API key.
 
-## Avvio 
+## Run 
 
     streamlit run main.py
